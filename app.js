@@ -44,6 +44,7 @@ var score = 0;
 function displayQuestion() {
     for (var a = 0; a < span.length; a++) {
         span[a].style.background = 'none';
+        span[a].style.hover = 'none';
     }
     question.innerHTML = 'Q.' + (i + 1) + ' ' + questionBank[i].question;
     option0.innerHTML = questionBank[i].option[0];
